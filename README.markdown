@@ -7,7 +7,7 @@ Windows - See /Windows
 ----------------------
 Linux
 -----
-###Try the binaries included or compile it yourself, download a copy of openssl source code and extract it in your home directory:
+Try the binaries included or compile it yourself, download a copy of openssl source code and extract it in your home directory:
 
 ###Prepare
 mkdir ~/cfdecrypt
@@ -33,3 +33,8 @@ cp ./cfiscrypted ~/cfdecrypt
 
 ###Check out the bash script provided
 ~/cfdecrypt/cfdecrypt.sh --help
+
+###Barebones usage with stdin/stdout:
+./cfdecrypt < encrypted_file.cfm > destination_file
+
+./cfiscrypted < encrypted_file.cfm #exit code 0 for encrypted files, You can see it with "echo $?" right after execution
