@@ -25,6 +25,7 @@ cd ~/openssl-1.0.0d/crypto/des
 
 ###Compile
 gcc -static ~/openssl-1.0.0d/crypto/des/des_old.c -lcrypto ~/openssl-1.0.0d/crypto/des/cfdecrypt.c -o cfdecrypt
+
 gcc  ~/openssl-1.0.0d/crypto/des/cfiscrypted.c -o cfiscrypted
 
 ###Copy the executables to somewhere convenient
