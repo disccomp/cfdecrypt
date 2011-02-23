@@ -1,13 +1,10 @@
 cfdecrypt
 =========
-
 developed by Matt Chapman www.zmatt.net, see cfdecrypt.c
-----------------------------------------------------------------------
 
-Windows
--------
-See /Windows
 
+Windows - See /Windows
+----------------------
 Linux
 -----
 ###Try the binaries included or compile it yourself, download a copy of openssl source code and extract it in your home directory:
